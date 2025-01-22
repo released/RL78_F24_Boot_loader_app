@@ -1,0 +1,112 @@
+;RENESAS OPTIMIZING LINKER GENERATED FILE 2025.01.22
+;fsymbol = .constf, .text, .textf, .bss, .sbss, .data, .sdata, .RLIB, .SLIB
+
+;SECTION NAME = .constf
+ .public _table
+_table .equ 0x00001c44
+;SECTION NAME = .text
+ .public _delay_wait
+_delay_wait .equ 0x0000023a
+;SECTION NAME = .textf
+ .public _ErrorHandler
+_ErrorHandler .equ 0x0000098e
+ .public _verify_application_chksum
+_verify_application_chksum .equ 0x00000a64
+ .public _condition_check
+_condition_check .equ 0x00000b29
+ .public _boot_UART1_Get_withTimeOut
+_boot_UART1_Get_withTimeOut .equ 0x00000bb0
+ .public _boot_UART1_Get
+_boot_UART1_Get .equ 0x00000c31
+ .public _boot_UART1_SendByte
+_boot_UART1_SendByte .equ 0x00000c4b
+ .public _boot_R_Config_UART1_Create
+_boot_R_Config_UART1_Create .equ 0x00000c5f
+ .public _boot_R_Config_UART1_Start
+_boot_R_Config_UART1_Start .equ 0x00000ced
+ .public _boot_R_Config_UART1_Stop
+_boot_R_Config_UART1_Stop .equ 0x00000d0f
+ .public _boot_R_SAU1_Create
+_boot_R_SAU1_Create .equ 0x00000d2e
+ .public _boot_R_Config_UART0_Create
+_boot_R_Config_UART0_Create .equ 0x00000d36
+ .public _boot_R_Config_UART0_Start
+_boot_R_Config_UART0_Start .equ 0x00000dbd
+ .public _boot_R_Config_UART0_Stop
+_boot_R_Config_UART0_Stop .equ 0x00000de5
+ .public _boot_R_SAU0_Create
+_boot_R_SAU0_Create .equ 0x00000e04
+ .public _boot_R_Config_TAU0_0_Stop
+_boot_R_Config_TAU0_0_Stop .equ 0x00000e0c
+ .public _boot_R_Config_TAU0_0_Start
+_boot_R_Config_TAU0_0_Start .equ 0x00000e16
+ .public _boot_R_Config_TAU0_0_Create
+_boot_R_Config_TAU0_0_Create .equ 0x00000e20
+ .public _boot_R_TAU0_Create
+_boot_R_TAU0_Create .equ 0x00000e53
+ .public _boot_R_Config_PORT_Create
+_boot_R_Config_PORT_Create .equ 0x00000e5b
+ .public _boot_mcu_clock_setup
+_boot_mcu_clock_setup .equ 0x00000e5c
+ .public _boot_bsp_init_system
+_boot_bsp_init_system .equ 0x00000ec0
+ .public _putchar
+_putchar .equ 0x00000ee3
+ .public _boot_hdwinit
+_boot_hdwinit .equ 0x00000efd
+ .public _UPDC32
+_UPDC32 .equ 0x00000f2b
+ .public _caculate_crc32_checksum
+_caculate_crc32_checksum .equ 0x00000f81
+ .public _XMD_Write
+_XMD_Write .equ 0x0000106c
+ .public _XMD_putc
+_XMD_putc .equ 0x000010dc
+ .public _XMD_getc
+_XMD_getc .equ 0x000010e7
+ .public _crc16_ccitt
+_crc16_ccitt .equ 0x00001104
+ .public _check
+_check .equ 0x0000118b
+ .public _Xmodem
+_Xmodem .equ 0x0000126d
+ .public _XmodemSend
+_XmodemSend .equ 0x0000161d
+;SECTION NAME = .bss
+;SECTION NAME = .sbss
+;SECTION NAME = .data
+ .public _flash_memory_start_address
+_flash_memory_start_address .equ 0x000f9f00
+ .public _flash_memory_end_address
+_flash_memory_end_address .equ 0x000f9f04
+ .public _erase_area_start_address
+_erase_area_start_address .equ 0x000f9f08
+ .public _erase_area_end_address
+_erase_area_end_address .equ 0x000f9f0c
+ .public _flash_target_memory_size
+_flash_target_memory_size .equ 0x000f9f10
+ .public _flash_memory_destination_address
+_flash_memory_destination_address .equ 0x000f9f14
+ .public _g_flash_operation_progressing
+_g_flash_operation_progressing .equ 0x000f9f18
+ .public _g_app_required_update
+_g_app_required_update .equ 0x000f9f19
+ .public _state
+_state .equ 0x000f9f1a
+ .public _s_au8XmdBuf
+_s_au8XmdBuf .equ 0x000f9f1e
+;SECTION NAME = .sdata
+;SECTION NAME = .RLIB
+;SECTION NAME = .SLIB
+ .public __COM_memcpy_ff
+__COM_memcpy_ff .equ 0x00000246
+ .public __COM_memset_f
+__COM_memset_f .equ 0x00000267
+ .public __COM_sldiv
+__COM_sldiv .equ 0x00000281
+ .public _printf_tiny
+_printf_tiny .equ 0x000002cb
+ .public __REL_print_tiny
+__REL_print_tiny .equ 0x00000386
+ .public _isdigit
+_isdigit .equ 0x00000984

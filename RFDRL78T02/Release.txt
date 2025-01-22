@@ -1,0 +1,66 @@
+===============================================================================
+Read me file for the Renesas Flash Driver(RFD) RL78 Type02
+===============================================================================
+
+========
+Contents
+========
+
+    1. Software Corrections and Updates
+    2. General Information
+    3. File Naming
+    4. Operating Precautions
+
+===================================
+1. Software Corrections and Updates
+===================================
+
+Installer Changes
+-----------------
+    V1.00
+    ------
+    - Newly released (RFD RL78 Type02:V1.00) 
+    
+RFD Changes
+-----------------
+    V1.00
+    ------
+    - Initial version
+
+======================
+2. General Information
+======================
+
+The Renesas Flash Driver is delivered in source code, prepared for
+the IAR development environment and Renesas development environment.
+
+Supported compiler are:
+
+- IAR compiler version:   V4.21.x 
+- CC-RL compiler version: V1.11.xx
+
+========================================
+3. File Naming
+========================================
+
+The installer file has the name RENESAS_RFD_RL78_Type[ab]_V{x}.{y}{z}.exe
+e.g. RENESAS_RFD_RL78_Type02_V1.00.exe
+
+[ab] Software type number
+{x} This version digit will be incremented in case of major changes
+    e.g. API added or there are some big changes
+{y} This version digit will be incremented in case of medium or small scale
+    addition and improvements
+{z} This version digit will be incremented in case of bug fixes and internal 
+    improvements
+
+========================
+4. Operating Precautions
+========================
+- RFD RL78 Type02 can not be applied to RL78/x1x series.
+- For further information, please refer to the related documentation and 
+  device documentation.
+
+===============================================================================
+End of read me file for the Renesas Flash Driver(RFD) RL78 Type02
+===============================================================================

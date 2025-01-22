@@ -1,0 +1,18 @@
+===============================================================================
+Support information for the the Renesas Flash Driver(RFD) RL78 Type02
+===============================================================================
+
+=============================
+Supported Devices information 
+=============================
+The microcontrollers are covered by this package.
+(as of June 2022)
+
+  RL78/F2x:
+     RL78/F24
+
+===============================================================================
+End of support information for the Renesas Flash Driver(RFD) RL78 Type02
+===============================================================================
+
+

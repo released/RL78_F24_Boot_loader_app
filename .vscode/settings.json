@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "sample_control_common.h": "c",
+        "sample_defines.h": "c",
+        "r_rfd_memmap.h": "c",
+        "r_rfd_common_control_api.h": "c"
+    }
+}
