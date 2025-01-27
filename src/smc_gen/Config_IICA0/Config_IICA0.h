@@ -41,8 +41,8 @@ Macro definitions
 ***********************************************************************************************************************/
 
 #define _12_IICA0_SLAVEADDRESS           (0x12U)    /* IICA0 address */
-#define _18_IICA0_IICWH_VALUE            (0x18U)
-#define _1A_IICA0_IICWL_VALUE            (0x1AU)
+#define _0A_IICA0_IICWH_VALUE            (0x0AU)
+#define _0A_IICA0_IICWL_VALUE            (0x0AU)
 
 /***********************************************************************************************************************
 Typedef definitions

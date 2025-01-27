@@ -316,9 +316,9 @@ void loop(void)
     {
         FLAG_PROJ_TIMER_PERIOD_1000MS = 0;
 
-        printf_tiny("log1(timer):%4d\r\n",LOG1++);
+        // printf_tiny("log1(timer):%4d\r\n",LOG1++);
         // printf_tiny("log2(timer):%4d\r\n",LOG1++);
-        // printf_tiny("log3(timer):%4d\r\n",LOG1++);
+        printf_tiny("log3(timer):%4d\r\n",LOG1++);
         LED_Toggle();             
     }
 

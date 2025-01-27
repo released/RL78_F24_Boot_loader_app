@@ -69,8 +69,8 @@ void R_Config_IICA0_Create(void)
     POM6 |= 0x0CU;
     P6 &= 0xF3U;
     PM6 |= 0x0CU;
-    IICWL0 = _1A_IICA0_IICWL_VALUE;
-    IICWH0 = _18_IICA0_IICWH_VALUE;
+    IICWL0 = _0A_IICA0_IICWL_VALUE;
+    IICWH0 = _0A_IICA0_IICWH_VALUE;
     IICRSV0 = 1U;
     SMC0 = 1U;
     DFC0 = 0U;    /* digital filter off */

@@ -986,7 +986,7 @@
                 <option enabled="true" id="address" selection="input">
                     <item id="input" input="18" vlaue="18"/>
                 </option>
-                <option enabled="true" id="operationMode" selection="fastmode">
+                <option enabled="true" id="operationMode" selection="fastPlusmode">
                     <item id="standard" input="" vlaue="0"/>
                     <item id="fastmode" input="" vlaue="0"/>
                     <item id="fastPlusmode" input="" vlaue="0"/>
