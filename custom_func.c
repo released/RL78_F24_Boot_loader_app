@@ -20,7 +20,7 @@
 
 /*_____ D E C L A R A T I O N S ____________________________________________*/
 
-struct flag_32bit flag_PROJ_CTL;
+volatile struct flag_32bit flag_PROJ_CTL;
 #define FLAG_PROJ_TIMER_PERIOD_1000MS                 	(flag_PROJ_CTL.bit0)
 #define FLAG_PROJ_TRIG_BTN1                       	    (flag_PROJ_CTL.bit1)
 #define FLAG_PROJ_TRIG_BTN2                 	        (flag_PROJ_CTL.bit2)
